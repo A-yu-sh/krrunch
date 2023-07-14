@@ -56,17 +56,25 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
+    "(app-client)/./Context/UserContext.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "id": "(sc_client)/./Context/UserContext.js",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
+    "(app-client)/./app/cookies/[id]/OneProductPage.js": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./app/cookies/[id]/OneProductPage.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -88,9 +96,9 @@
         "async": false
       }
     },
-    "(app-client)/./Context/UserContext.js": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
-        "id": "(sc_client)/./Context/UserContext.js",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [],
         "async": false
@@ -259,11 +267,27 @@
       ],
       "async": false
     },
+    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\Context\\UserContext.js": {
+      "id": "(app-client)/./Context/UserContext.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\app\\cookies\\[id]\\OneProductPage.js": {
+      "id": "(app-client)/./app/cookies/[id]/OneProductPage.js",
+      "name": "*",
+      "chunks": [
+        "app/cookies/[id]/page:static/chunks/app/cookies/[id]/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -271,23 +295,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -295,7 +303,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -303,7 +311,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
@@ -315,17 +323,29 @@
       ],
       "async": false
     },
-    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\Context\\UserContext.js": {
-      "id": "(app-client)/./Context/UserContext.js",
+    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\app\\page": {
+    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\app\\cookies\\[id]\\loading": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\app\\cookies\\[id]\\page": {
       "modules": [],
       "files": []
     },
@@ -337,6 +357,18 @@
       "files": [
         "static/css/app/layout.css"
       ]
+    },
+    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\app\\cookies\\loading": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\app\\cookies\\page": {
+      "modules": [],
+      "files": []
+    },
+    "C:\\Users\\DELL\\OneDrive\\Documents\\Code\\Next\\krrunch\\app\\page": {
+      "modules": [],
+      "files": []
     }
   }
 }

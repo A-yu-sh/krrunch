@@ -15,7 +15,7 @@ export default function Navbar() {
       <h1 className={`flex justify-center mt-5 text-4xl text-primary-800 `}>
         <Link href="/">Krrunch.</Link>
       </h1>
-      <span class=" text-secondary-800 font-bold absolute -top-[0.2]  lg:ml-[47.9rem]  text-center text-[14px] leading-none ">
+      <span className=" text-secondary-800 font-bold absolute -top-[0.2]  lg:ml-[47.9rem]  text-center text-[14px] leading-none ">
         {len > 0 ? <div>{len}</div> : null}
       </span>
       <nav className=" flex justify-center text-sm lg:text-xl mt-3 gap-x-20 text-primary-800 ">
